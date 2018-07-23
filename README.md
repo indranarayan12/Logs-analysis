@@ -23,9 +23,9 @@ Uses SQL queries to analyze data by connecting to a newspaper articles database.
 ```$vagrant ssh```
 3. ```cd``` inside vagrant directory
 ```$cd vagrant```
-4.run:
+4. run:
 ```psql -d news -f newsdata.sql```
-5.```python3 newsdata.py``` to run the reporting tool
-6.From the vagrant directory inside the virtual machine, run logs_analysis.py using:
+5. ```python3 newsdata.py``` to run the reporting tool
+6. From the vagrant directory inside the virtual machine, run logs_analysis.py using:
 ```$python3 logs_analysis.py```
 
