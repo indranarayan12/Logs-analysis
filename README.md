@@ -6,9 +6,9 @@ Uses SQL queries to analyze data by connecting to a newspaper articles database.
 ### Download
 
 #### Softwares required:
-[Python3](https://www.python.org/)
-[Vagrant](https://www.vagrantup.com/)
-[VirtualBox](https://www.virtualbox.org/)
+1.[Python3](https://www.python.org/)
+2.[Vagrant](https://www.vagrantup.com/)
+3.[VirtualBox](https://www.virtualbox.org/)
 
 #### Environment setup:
 1. Install Vagrant and VirtualBox
