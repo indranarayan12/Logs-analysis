@@ -18,14 +18,24 @@ Uses SQL queries to analyze data by connecting to a newspaper articles database.
 
 ### Launching the virtual machine and running the project
 1. ```cd``` inside the vagrant directory of FSND-Virtual-Machine directory run :
-    ```$ vagrant up```
+    ```
+    $ vagrant up
+    ```
 2. Log in using:
-```$vagrant ssh```
+```
+$vagrant ssh
+```
 3. ```cd``` inside vagrant directory
-```$cd vagrant```
+```
+$cd vagrant
+```
 4. run:
-```psql -d news -f newsdata.sql```
+```
+psql -d news -f newsdata.sql
+```
 5. ```python3 newsdata.py``` to run the reporting tool
 6. From the vagrant directory inside the virtual machine, run logs_analysis.py using:
-```$python3 logs_analysis.py```
+```
+$python3 logs_analysis.py
+```
 
